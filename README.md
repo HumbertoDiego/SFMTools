@@ -12,5 +12,5 @@ git pull origin main
 # Do and push changes:
 git add * ; git commit -m "general updates"; git push -u origin main
 #Pull changes
-git pull origin main
+git pull origin main 
  -->
