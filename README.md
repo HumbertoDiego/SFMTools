@@ -2,9 +2,19 @@
 Papiros de Structure from Motion e processamento fotogramétrico
 
 ### 1. Notebook sobre a teoria da triangulação, fototriangulação e aerotriangulação [fototriangulação.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação.ipynb).
-### 2. Notebook sobre a teoria da fototriangulação pelo método dos modelos independentes [fototri_mmi.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototri_mmi.ipynb).
-### 2. Notebook sobre a teoria da fototriangulação pelo método dos feixes perspectivos (bundle-adjustment) [fototri_mfp.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototri_mfp.ipynb).
+### &nbsp; &nbsp; 1.a Notebook sobre calibração de câmeras em um objeto com um padrão 3D [calibração-3DPattern.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/calibração-3DPattern.ipynb).
+### 2. Notebook sobre a teoria da fototriangulação para múltiplas visadas [fototriangulação_MVS.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_MVS.ipynb).
+### 3. Notebook sobre a teoria da fototriangulação pelo método dos feixes perspectivos (bundle-adjustment) [fototriangulação_BundleAdjustment.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_BundleAdjustment.ipynb).
 
+
+Requistos:
+
+- Anaconda
+    - conda create -n myenv python=3.12 ipykernel jupyter
+    - conda activate myenv
+    - pip install pillow defusedxml xmptools numpy matplotlib pyproj geopandas contextily sympy requests gdown open3d scipy
+
+   
 <!-- 
 git init
 git remote add origin https://github.com/HumbertoDiego/SFMTools
