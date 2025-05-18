@@ -1,18 +1,19 @@
 # SFMTools
 Papiros de Structure from Motion e processamento fotogramétrico
 
-### 1. Notebook sobre a teoria da triangulação, fototriangulação e aerotriangulação [fototriangulação.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação.ipynb).
-### &nbsp; &nbsp; 1.a Notebook sobre calibração de câmeras em um objeto com um padrão 3D [calibração-3DPattern.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/calibração-3DPattern.ipynb).
-### 2. Notebook sobre a teoria da fototriangulação para múltiplas visadas [fototriangulação_MVS.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_MVS.ipynb).
-### 3. Notebook sobre a teoria da fototriangulação pelo método dos feixes perspectivos (bundle-adjustment) [fototriangulação_BundleAdjustment.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_BundleAdjustment.ipynb).
-
-
+### 1. Hands-On em triangulação, fototriangulação e aerotriangulação [fototriangulação.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação.ipynb).
+### &nbsp; &nbsp; 1.a Hands-On em calibração de câmeras em um objeto com um padrão 3D [calibração_3DPattern.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/calibração_3DPattern.ipynb).
+### 2. Hands-On em fototriangulação para múltiplas visadas [fototriangulação_MVS.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_MVS.ipynb).
+### 3. Hands-On em fototriangulação pelo método dos feixes perspectivos (bundle-adjustment) [fototriangulação_BundleAdjustment.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fototriangulação_BundleAdjustment.ipynb).
+### &nbsp; &nbsp; 3.a Hands-On em técnicas de correpondência automática de pontos em imagens sobrepostas [getCorrespondences.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/getCorrespondences.ipynb).
+### &nbsp; &nbsp; 3.b Hands-On em estimativa inicial da transformação espaço-objeto para espaço-imagem [fundamentalMatrix.ipynb](https://github.com/HumbertoDiego/SFMTools/blob/main/fundamentalMatrix.ipynb).
+<br>
 Requistos:
 
 - Anaconda
     - conda create -n myenv python=3.12 ipykernel jupyter
     - conda activate myenv
-    - pip install pillow defusedxml xmptools numpy matplotlib pyproj geopandas contextily sympy requests gdown open3d scipy
+    - pip install pillow defusedxml xmptools numpy matplotlib pyproj geopandas contextily sympy requests gdown open3d scipy ipython-autotime opencv-python
 
    
 <!-- 
